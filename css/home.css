@@ -1,0 +1,165 @@
+/*!
+ * Start Bootstrap - Blog Home HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+footer {
+    margin: 50px 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+.nav {
+	background: #f9320c;
+	min-height: 50px;
+	top:0;
+	left: 0;
+	width: 100%;
+	box-sizing: border-box;
+	font-size: 14px;
+	position: fixed;
+	border-bottom: 2px solid #181842;
+	box-shadow: 0 3px 2px -2px rgba(200,200,0,2);
+}
+
+.logo-area{
+	width: 12%;
+	float: left;
+	height: 50px;
+	margin-left: 40px;
+	color: white;
+	border-right: 2px solid #181842;
+}
+.logo-area a{
+	color: white;
+	font-size: 30px;
+}
+
+.logo-area span{
+	margin-top: 5px;
+	color: #181842;
+}
+.question-area{
+	height: 50px;
+	width: 35%;
+	padding-top: 7px;
+	margin-left: 50px;
+	float: left;
+}
+.input-group{
+	width: 500px;
+	border-radius: 3px;
+}
+
+.nav-elements{
+	width: 26%;
+	padding-top: px;
+	float: left;
+	height: 50px;
+	border-right: 2px solid #181842;
+}
+.nav-elements ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+
+}
+.nav-elements ul li {
+	line-height: 50px;
+	height: 50px;
+	display: block;
+	margin-left: 15px;
+	float: left;
+	
+}
+.nav-elements ul li a{
+	
+	color: #fff;
+	font-weight: 700;
+
+	
+}
+.nav-elements li a:hover{
+	text-decoration: none;
+	border-bottom: 1px solid #888;
+	color: #fff;
+}
+.profile-area{
+	margin-top: 10px;
+	height: 40px;
+	padding-top: 7px;
+	
+}
+.profile-area a{
+	margin-left: 50px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 700;	
+	width: 40px;
+}
+.profile-area a:hover{
+	text-decoration: none;
+	border-bottom: 1px solid #888;
+}
+
+#main-content-area{
+	margin-top:40px;
+}
+
+
+.side-content{
+	width: 20%;
+	height: auto;
+	margin-left: 20px;
+	
+	float: left;
+}
+.col-md-8{font-size: 30px; margin-top: 5px;}
+.col-md-4{font-size: 14px; margin-top: 25px; font-weight: 600}
+
+#menu {
+	width: 90%;
+	border-left: 1px solid #d4dfe6;
+	border-top: 1px solid #d4dfe6;
+	margin: 10px;
+}
+	
+#menu li a {
+  	height: 40px;
+  	margin-top: 10px;
+	text-decoration: none;
+}	
+	
+#menu li a:link {
+	color: #181842;
+	display: block;
+	padding: 8px 0 0 10px;
+}
+	
+#menu li a:hover {
+	color: #26370A;
+	padding: 8px 0 0 10px;
+	background: #d4dfe6;
+}
+	
+
+#menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.main-content{
+	
+	width: 60%;
+	height: auto;
+	float: left;
+}
