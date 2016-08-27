@@ -13,19 +13,18 @@
 			$question = $row_question['question'];
 			$user = $row_question['user'];
 			$question_date = $row_question['date'];
-			$question_time = $row_question['time'];
+			
 			$question_details = $row_question['question_details'];
-			$question_views = $row_question['views'];
-			$question_following = $row_question['following'];
+			
+			
 
 
 			echo "
 
-                <h2>Feeds</h2>
-                <hr>
+                
 
                 <div class='question-header'> 
-                	$user <span>  </span> $question_date <span> </span> $question_time
+                	$user <span>  </span> $question_date <span> </span> 
                  </div>
 
                  <p style='font-weight:bold; margin-top:10px; margin-bottom:10px'> $question</p>
@@ -34,11 +33,11 @@
                  	<a href='view_question.php'>Read...</a>
                  	</p>
 
-                 <button class='btn btn-default btn-small' type='button'>
- 					 Views <span class='badge'>$question_views</span>
-				 </button>
+                 <a href='answer-question.php' class='btn btn-default btn-small' type='button'>
+ 					 Answer<span class='badge'></span>
+				 </a>
 				 <button class='btn btn-default btn-small' type='button'>
- 					 Follow <span class='badge'>$question_following</span>
+ 					 Answers <span class='badge'>5</span>
 				 </button>
                  <hr>
 

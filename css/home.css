@@ -51,7 +51,7 @@ a{
 	height: 50px;
 	width: 35%;
 	padding-top: 7px;
-	margin-left: 50px;
+	margin-left: 40px;
 	float: left;
 }
 .input-group{
@@ -60,7 +60,7 @@ a{
 }
 
 .nav-elements{
-	width: 26%;
+	width: 30%;
 	padding-top: px;
 	float: left;
 	height: 50px;
@@ -118,7 +118,7 @@ a{
 .side-content{
 	width: 20%;
 	height: auto;
-	margin-left: 20px;
+	margin-left: 10%;
 	
 	float: left;
 }

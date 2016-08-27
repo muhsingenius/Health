@@ -63,7 +63,8 @@
             <ul>
                 
                 <li><a href="#"><span class="glyphicon glyphicon-tasks"></span> Feeds</a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-question-sign"></span> Questions</a></li>
+                <!--<li><button type="button" class="btn btn-default btn-sm" data-toggle="modal" data-target="#ask-question-modal"><span class="glyphicon glyphicon-question-sign"></span> Ask Question</button></li>-->
+                <li><a href="question/ask_question.php"><span class="glyphicon glyphicon-question-sign"></span> Ask Question</a></li>
                 <li><a href="#"><span class="glyphicon glyphicon-flag"></span> Notivications</a></li>
              
             </ul>
@@ -74,32 +75,71 @@
             <a href="user/register.php">Register</span></a>
             <a href="user/login.php">Login</span></a>
         </div>
-    </nav>
-    <!-- Navigation ends here -->
+    </nav><!-- Navigation ends here -->
+
+
+   <!--   ASK QUESTION MODAL STARTS HERE   -->
+
+        <!--<div class="modal fade" id="ask-question-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+             <div class="modal-content">
+                <div class="modal-header">
+                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Ask Question</h4>
+                </div>
+            <div class="modal-body">
+             
+                    <form name="ask-question-form" action="ask_question.php" role="form">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Question</label>
+                            <textarea type="text" class="form-control" id="question" name="question"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Details</label>
+                            <textarea type="text" class="form-control" id="exampleInputPassword1" name="details"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <select>
+                                <option>Select Category</option>
+                                <option>Marternal Health</option>
+                                <option>Nutrition $ Fitness</option>
+                                <option>Reproduction Health</option>
+                                <option>Family Planning</option>
+                                <option>First Aid Medicine</option>
+                                <option>Marternal Health</option>
+                            </select>
+                       
+                    </form>
+                </div>     
+            </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" name="submit-question">Submit Question</button>
+      </div>
+    </div>
+  </div>
+</div>-->
+   <!--   ASK QUESTION MODAL ENDS HERE   -->
+
 
 
     <!-- Page Content -->
     
     <div class="container" id="main-content-area">
-
-            
             <div class="main-content">
+
+                <h2>Feeds</h2>
+                <hr>
                  <?php
                     get_question();
                 ?>
 
             </div>
-           
-               
-
-
                 <div class="side-content">
                 <div class="row">
                     <div class="col-md-8"><p>Categories</p></div>
-                       <div class="col-md-4"><p>Edit</p></div>
-                    
+                       <div class="col-md-4"><p>Edit</p></div>   
                 </div>
-
                 <div id="menu">
                     <ul>
                         <li><a href="#1" title="Maternal Health"><span class="glyphicon glyphicon-leaf"> </span> Maternal Health</a></li>
@@ -111,9 +151,7 @@
                     </ul>
                 </div>
             </div>
-           
-        </div>
-
+    </div>
             <!-- Blog Entries Column -->
         
 
